@@ -1,0 +1,16 @@
+{
+	"namespace": "org.pjgg.sparkStreamming.avro",
+	"type": "record",
+	"name": "WordsCount",
+	 "fields":[
+         { "name": "aggr",
+           "type":{
+                 "type":"map",
+                 "values":"int"
+
+           }
+         }
+       ]
+}
+
+

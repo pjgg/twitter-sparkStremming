@@ -1,0 +1,9 @@
+{
+	"namespace": "org.pjgg.sparkStreamming.avro",
+	"type": "record",
+	"name": "Tweet",
+	"fields": [
+		{"name": "name", "type": "string"},
+		{"name": "text", "type": "string"}
+	]
+}

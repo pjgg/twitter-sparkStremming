@@ -1,0 +1,10 @@
+
+# User-specific stuff:
+.idea/workspace.xml
+spark-redshift.iml
+.idea/libraries
+dependency-reduced-pom.xml
+rabbitMQ-Spark.iml
+/target
+/.idea
+

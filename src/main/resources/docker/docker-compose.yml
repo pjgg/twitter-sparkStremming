@@ -1,0 +1,13 @@
+version: '2'
+services:
+  kafka:
+   build: .
+   container_name: kafka
+   volumes:
+       - ./share:/misc
+   ports:
+          - "9092:9092"
+          - "2181:2181"
+   entrypoint: ["/bin/bash", "/misc/script.sh"]
+
+
